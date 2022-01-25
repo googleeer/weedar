@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T08:26:43.334Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="H3jbwcHfmzWwNkNM3iAM" version="16.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-25T18:39:59.973Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="fsY-VoRLHGGihtWWSaCt" version="16.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3389" dy="2300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="1006" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -185,14 +185,11 @@
         <mxCell id="ajMo947TmWHMtEpvT3de-87" value="IsExist" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="635" y="1080" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ajMo947TmWHMtEpvT3de-88" value="MY NFT WALLET" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="10" y="1370" width="160" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="ajMo947TmWHMtEpvT3de-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ajMo947TmWHMtEpvT3de-89" target="ajMo947TmWHMtEpvT3de-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ajMo947TmWHMtEpvT3de-89" value="MINT PAGE" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="10" y="1180" width="160" height="80" as="geometry" />
+          <mxGeometry x="10" y="1340" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ajMo947TmWHMtEpvT3de-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ajMo947TmWHMtEpvT3de-90" target="ajMo947TmWHMtEpvT3de-100">
           <mxGeometry relative="1" as="geometry" />
@@ -215,10 +212,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ajMo947TmWHMtEpvT3de-104" value="USER" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;shadow=1;gradientColor=#99CCFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="200" y="1190" width="30" height="60" as="geometry" />
+          <mxGeometry x="200" y="1350" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ajMo947TmWHMtEpvT3de-106" value="Mint Options" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=1;gradientColor=#99CCFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="309.5" y="1160" width="140" height="120" as="geometry">
+          <mxGeometry x="309.5" y="1320" width="140" height="120" as="geometry">
             <mxRectangle x="309.5" y="1205" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>

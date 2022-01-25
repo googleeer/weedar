@@ -1,11 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T06:32:10.573Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="PVWnDb2hwIbtgumXqQ5S" version="16.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-25T07:03:46.423Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="s9vE8193f7Ra57OH4klX" version="16.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1395" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="App Init" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="300" y="150" width="120" height="40" as="geometry" />
+        <mxCell id="ajMo947TmWHMtEpvT3de-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="ajMo947TmWHMtEpvT3de-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="User open Web App" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;noLabel=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="330" y="90" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ajMo947TmWHMtEpvT3de-11" target="ajMo947TmWHMtEpvT3de-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-11" value="App User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ajMo947TmWHMtEpvT3de-17" target="WIyWlLk6GJQsqaUBKTNV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-17" value="Scan QR with URL encoded" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-21" value="Microservice (MagicLink)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="723" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ajMo947TmWHMtEpvT3de-23" target="ajMo947TmWHMtEpvT3de-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-23" value="Using SMS based auth" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="513" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-25" value="App DB&lt;br&gt;Firebase ?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-26" value="User type his own phone number" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="513" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-28" value="weedar.io" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;autosize=1;container=0;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="355" y="70" width="80" height="20" as="geometry">
+            <mxRectangle x="365" y="60" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ajMo947TmWHMtEpvT3de-29" target="ajMo947TmWHMtEpvT3de-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ajMo947TmWHMtEpvT3de-29" target="ajMo947TmWHMtEpvT3de-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-29" value="&lt;span&gt;The platform&lt;/span&gt;&lt;br&gt;&lt;span&gt;require an auth&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="513" y="50" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-33" value="Has App Account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;direction=east;rotation=-90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="523" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-35" value="" style="endArrow=classic;html=1;rounded=0;shadow=0;startArrow=none;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ajMo947TmWHMtEpvT3de-37" target="ajMo947TmWHMtEpvT3de-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="523" y="430" as="sourcePoint" />
+            <mxPoint x="613" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-37" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="541" y="430" width="24" height="29.099999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMo947TmWHMtEpvT3de-38" value="" style="endArrow=none;html=1;rounded=0;shadow=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ajMo947TmWHMtEpvT3de-26" target="ajMo947TmWHMtEpvT3de-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="523" y="430" as="sourcePoint" />
+            <mxPoint x="623" y="430" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
